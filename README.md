@@ -8,7 +8,9 @@ The project's goal is to make potential field geophysicist life easier by automa
 One must have **selenium**, **webdriver** and **webdriver_manager** installed to run the code. If that is not the case, please follow the steps bellow on your terminal or cmd window.
 
 ```bash
-pip install selenium webdriver webdriver_manager
+pip install selenium 
+
+pip install webdriver_manager
 ```
 
 If you have Anaconda installed then you can easily search for these packages in the App.
