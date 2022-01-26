@@ -6,7 +6,7 @@ The project's goal is to make potential field geophysicist life easier by automa
 ## Installation
 <img align="center" height=240 src="iu.jpeg"/>
 
-One must have **selenium**, **webdriver** and **webdriver_manager** installed to run the code. If that is not the case, please follow the steps bellow on your terminal or cmd window.
+One must have **selenium** and **webdriver_manager** installed to run the code. If that is not the case, please follow the steps bellow on your terminal or cmd window.
 
 ```bash
 pip install selenium 
