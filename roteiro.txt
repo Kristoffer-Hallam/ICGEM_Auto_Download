@@ -1,0 +1,40 @@
+# Introdução
+
+Fala ae galera do código Python, tudo bem?
+
+Meu nome é Kris e
+Estou muito feliz em iniciar o meu canal de códigos em Python! No canal eu trarei códigos com aplicaçÕes interessantes
+para todos os níveis de programadores. Portanto, fiquem ligados!
+
+(VINHETA)
+(MOSTRAR NUM PPT Web)
+Neste primeiro vídeo darei um exemplo de como se obter informações diretamente de uma página da web pela execução de
+um bloco de código feito no Jupyter notebook. Portanto, este será um exemplo claro de Web Scrapping. Para esta mesma
+finalidade, existem inúmeros pacotes que podemos usar como o Requests, Beuatiful Soup, dentre outros. No nosso caso
+utilizaremos o Selenium.
+Então, vc que se interessa por automação de processos, vamo cair dentro desse vídeo...
+
+Vamos falar brevemente da instalação dos pacotes. Supondo que o python esteja instalado corretamente na sua máquina, você
+deve então instalar primeiramente o pacote Selenium por meio do gerenciador de pacotes pip da seguinte forma:
+
+pip install selenium
+
+em seguida instale o webdriver_manager de maneira similar
+
+pip install webdriver_manager
+
+(MOSTRAR NO ANACONDA)
+Se vc utiliza o Anaconda App em sua máquina, basta vc procurar por estes pacotes na janela de ambientes e procurar pelos
+pacotes citados. Uma vez resolvido a questão da instalação, podemos prosseguir.
+
+# Objetivo
+
+(MOSTRAR O PASSO A PASSO NO SAFARI INICIALMENTE)
+Nosso objetivo é que o código realize automaticamente os seguintes passos:
+1- Abra o navegador Chrome
+2- Digite a url no campo
+3- Uma vez que a página esteja carregada, clicar no botão "Regular grids"
+4- Guardar numa lista o nome de todos os modelos existentes no menu
+
+(EXECUTAR O CÓDIGO)
+
